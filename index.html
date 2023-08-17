@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-max foods</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>FoodHub</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="restaurant.css">
 </head>
 <body>
     <div class="header">
         <div class="logo">
-            <a href="restaurant.html"> <i class="fa fa-utensils"></i> Foodhub</a>
+            <a href="restaurant.html"> <i class="fa fa-utensils"></i> FoodHub</a>
         </div>
 
-        <div class="menu-bar"> <i class="fa fa-bars">&#9776;</i></div>
+        <div class="menu-bar"> <i class="fa fa-bars"></i></div>
         <nav id='nav'>
             <ul>
                 <li><a href="#home" class="links"> Home</a></li>
@@ -25,15 +25,11 @@
                 <li><a href="#order" class="links"> Order</a></li>
             </ul>
         </nav>
-        <div class="nav-icons">
-            <i class="fas fa-search"></i>
-            <i class="fas fa-heart"></i>
-            
-        </div>
     </div>
+    <a class="btn-up" href="#home"><i class="fas fa-chevron-up"></i></a>
     <section class="home" id="home">
         <div class="content">
-            <h3> Welcome to <span class="red">Foodhub</span> foods</h3>
+            <h3> Welcome to <span class="red">FoodHub</span></h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium fugiat consequatur minus ullam voluptatem animi tempore cum consectetur nemo. Obcaecati necessitatibus quos qui eligendi alias praesentium, ipsa explicabo eius eos!</p>
             <a href="#" class="btn"> Order Now</a>
         </div>
@@ -310,7 +306,7 @@
                 </div>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere nobis impedit quibusdam similique quos mollitia eum, non placeat minima. Fugit voluptatem vel quidem, consectetur perspiciatis debitis harum quisquam hic repellendus.</p>
             </div>
-                        <div class="box">
+             <div class="box">
                 <img src="img/review2.png" alt="Reload your browser">
                 <h3> Eddy Rolf</h3>
                 <div class="stars">
@@ -334,16 +330,70 @@
                 </div>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere nobis impedit quibusdam similique quos mollitia eum, non placeat minima. Fugit voluptatem vel quidem, consectetur perspiciatis debitis harum quisquam hic repellendus.</p>
             </div>
+            
+            <div class="box">
+              <img src="img/review4.jpeg" alt="Reload your browser">
+              <h3> Doglas Stone</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere nobis impedit quibusdam similique quos mollitia eum, non placeat minima. Fugit voluptatem vel quidem, consectetur perspiciatis debitis harum quisquam hic repellendus.</p>
+            </div>
+            
+            <div class="box">
+              <img src="img/review5.jpeg" alt="Reload your browser">
+              <h3> Cecile Lilton</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere nobis impedit quibusdam similique quos mollitia eum, non placeat minima. Fugit voluptatem vel quidem, consectetur perspiciatis debitis harum quisquam hic repellendus.</p>
+            </div>
         </div>
     </section>
     
     <section class="order" id="order">
-     <h1 class="heading"> Our Customers' <span> Reviews</span></h1>
-      <div class="box-container">
+     <h1 class="heading"> <span> Order</span> Now</h1>
+      <div class="form-container">
         
+        <div class="image">
+          <img src="img/break.png" alt="Reload Your browser">
+        </div>
+        
+        
+        <form action="">
+          
+          <div class="input-con">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+          <input type="email" name="email" id="email" placeholder="Enter your Email" />
+          </div>
+          
+          <div class="input-con">
+            <input type="number" name="number" id="number" placeholder="Food number" />
+            <input type="text" name="foodname" id="foodname" placeholder="Enter the food name" />
+          </div>
+          
+          <textarea name="" id="" cols="30" rows="10" placeholder="Address"></textarea>
+          
+          <input type="submit" name="submit" class="btn" value="Order Now" />
+        </form>
       </div>
     </section>
     
     <script src="restaurant.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
