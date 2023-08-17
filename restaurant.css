@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&dispaly=swap');
+
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -417,7 +419,7 @@ section {
 
 .btn-up {
   position: fixed;
-  bottom: 2rem;
+  bottom: 2.5rem;
   right: 2rem;
   width: 50px;
   height: 50px;
@@ -495,6 +497,36 @@ form .btn {
 
 form .btn:hover {
   background: var(--red);
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: var(--lightdark)
+}
+
+.footer .socials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.footer .socials a {
+  width: 20rem;
+  text-align: center;
+  margin: 5px;
+  padding: .5rem;
+}
+
+.footer h1 .red, .footer h1 {
+  font-size: 1.5rem;
+}
+
+.footer h1 {
+  text-align: right;
+  color: var(--white);
 }
 
 
@@ -587,4 +619,5 @@ form .btn:hover {
   
   }
 }
+
 
